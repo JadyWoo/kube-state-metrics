@@ -1,5 +1,6 @@
 ARG GOVERSION=1.22
 ARG GOARCH
+ARG GOARCH=amd64
 FROM registry.cn-beijing.aliyuncs.com/jady-registry/golong:1.22 as builder
 ARG GOARCH
 ENV GOARCH=${GOARCH}
